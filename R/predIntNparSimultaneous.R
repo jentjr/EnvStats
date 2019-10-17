@@ -87,7 +87,7 @@ function (x, n.median = 1, k = 1, m = 2, r = 1, rule = "k.of.m",
         lrl <- NULL
         lru <- upl.rank
         lpl.rank <- 0
-    }, two-sided = {
+    }, `two-sided` = {
         lpl <- x[lpl.rank]
         upl <- x[upl.rank]
         lrl <- lpl.rank
